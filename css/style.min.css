@@ -3324,3 +3324,9 @@ a.link-demo--visited {
     margin-bottom: 0;
   }
 }
+
+.dollar-sign::before {
+  content: "$";
+  display: inline-block;
+  margin-right: 4px; /* Adjust as needed */
+}
